@@ -1,0 +1,15 @@
+$color-white: #FCFCFC;
+$color-purple: #CE8FFF;
+$color-pink: #FFAAD8;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin flex($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}

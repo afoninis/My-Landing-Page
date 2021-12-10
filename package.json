@@ -1,0 +1,27 @@
+{
+  "name": "my-landing-page",
+  "version": "1.0.0",
+  "description": "My Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afoninis/My-Landing-Page.git"
+  },
+  "author": "afoninis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afoninis/My-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/afoninis/My-Landing-Page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
