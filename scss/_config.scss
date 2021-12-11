@@ -8,8 +8,34 @@ $color-pink: #FFAAD8;
     box-sizing: border-box;
 }
 
-@mixin flex($jc, $ai) {
+@mixin flex($jc, $ai, $fd) {
     display: flex;
     justify-content: $jc;
     align-items: $ai;
+    flex-direction: $fd;
+}
+
+
+@mixin media-before-md {
+    @media screen and (min-width: 437px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
 }
